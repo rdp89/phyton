@@ -1,1 +1,1 @@
-##Este va a ser mi aprendizaje con python desde 0
+Este va a ser mi aprendizaje con python desde 0
