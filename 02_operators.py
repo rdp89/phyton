@@ -1,4 +1,4 @@
-### Operadores ###
+### Operadores aritméticos ###
 
 print(3 + 4)
 print(3 - 4)
@@ -11,3 +11,21 @@ print(2 ** 3 + 3 - 7 / 1 // 4)
 print("Hola " + " Python") #En este caso se concatena
 print("Hola " + str(5)) # Convertimos el entero 5 en texto y así se concatena, de lo contrario no
 print("Hola " * 5)
+
+# print("Hola" * 2.5 * 2) esto da error
+my_float = 2.5 * 2 #5.0
+print("Hola " * int(my_float)) #Imprimirá 5 veces hola también ya que lo hemos convertido a int
+
+### Operadores comparativos ###
+
+print(3 > 4) # False
+print(3 < 4) # True
+print(3 <= 4) # True
+print(3 >= 4) # False
+print(3 == 4) # False
+print(3 != 4) # True
+print(3 == 3 >= 3) # True
+
+# Con cadenas también
+
+print ("Hola" > "Python")
