@@ -38,6 +38,6 @@ first_name = 34
 age = "Rafa"
 
 #Forzamos tipado ¿?
-address: str = "Mi dirección" # Solo indicamos que nos gustaría que fuese tipo string ya que python es un lenguaje de tipado flojo
+address: str = "Mi dirección" # Solo indicamos que nos gustaría que fuese tipo string ya que python es un lenguaje de tipado dinámico
 address = 32
 print(address)
