@@ -35,6 +35,8 @@ print("Hola" != "Python")
 
 ### Operadores lógicos ###
 
-print(3 > 4 and "Hola" > "Python")
-print(3 > 4 or "Hola" > "Python")
-#print(3 > 4 not "Hola" > "Python")
+print(3 > 4 and "Hola" > "Python") #False
+print(3 > 4 or "Hola" > "Python") #False
+print(3 < 4 or "Hola" > "Python") #True
+#print(3 > 4 not "Hola" > "Python") así no funciona
+print(not(3 > 4)) #Se hace así, da lo contrario, en este caso true not(false)
