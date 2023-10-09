@@ -26,6 +26,15 @@ print(3 == 4) # False
 print(3 != 4) # True
 print(3 == 3 >= 3) # True
 
-# Con cadenas también
+# Con cadenas también (Ordenación alfabética por ASCII)
 
-print ("Hola" > "Python")
+print("Hola" > "Python")
+print("Hola" < "Python")
+print(len("Hola") == len("Pyth")) #Aqui compara longitud de caracteres
+print("Hola" != "Python")
+
+### Operadores lógicos ###
+
+print(3 > 4 and "Hola" > "Python")
+print(3 > 4 or "Hola" > "Python")
+print(3 > 4 not "Hola" > "Python")
