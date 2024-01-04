@@ -35,4 +35,7 @@ if texto:
 if texto == "Mi cadena de texto":
     print("Es igual y no está vacía")
 
+if not texto:
+    print("Aquí entra en el if de negación, es decir, la cadena está vacía")
+
 print("La ejecución continúa")
